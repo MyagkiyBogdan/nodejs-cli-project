@@ -4,7 +4,7 @@
 
 https://ibb.co/j38ZVPS
 
-[add](https://github.com/myagkiybogdan/nodejs-cli-project/raw/main/screenshots/list.jpg)
+![image](https://github.com/myagkiybogdan/nodejs-cli-project/raw/main/screenshots/list.jpg)
 
 # Получаем контакт по id
 
