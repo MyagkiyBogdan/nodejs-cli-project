@@ -4,6 +4,8 @@
 
 https://ibb.co/j38ZVPS
 
+[add](https://github.com/myagkiybogdan/nodejs-cli-project/raw/main/screenshots/list.jpg)
+
 # Получаем контакт по id
 
 ## node index.js --action get --id 5
