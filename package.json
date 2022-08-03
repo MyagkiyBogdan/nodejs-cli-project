@@ -21,5 +21,9 @@
   "homepage": "https://github.com/MyagkiyBogdan/nodejs-cli-project#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "uuid": "^8.3.2"
   }
 }
