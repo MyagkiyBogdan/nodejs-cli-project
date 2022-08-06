@@ -1,4 +1,10 @@
-const { listContacts, getContactById, removeContact, addContact } = require('./contacts');
+const {
+  listContacts,
+  getContactById,
+  removeContact,
+  addContact,
+  updateContact,
+} = require('./contacts');
 const { Command } = require('commander');
 const program = new Command();
 program
@@ -32,6 +38,11 @@ async function invokeAction({ action, id, name, email, phone }) {
     case 'remove':
       const removedContact = await removeContact(id);
       console.table(removedContact);
+      break;
+
+    case 'update':
+      const updatedContact = await updateContact(id, name, email, phone);
+      console.table(updatedContact);
       break;
 
     default:
