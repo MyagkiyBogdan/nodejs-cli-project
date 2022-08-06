@@ -51,7 +51,6 @@ async function addContact(name, email, phone) {
 }
 
 const updateContact = async (contactId, name, email, phone) => {
-  console.log('id,name,emal,phone', contactId, name, email, phone);
   try {
     const contacts = await fs.readFile(contactsPath);
     const parsedContacts = JSON.parse(contacts);
